@@ -1,0 +1,19 @@
+using System;
+
+namespace HelloWorld
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+      
+      string[] cars = {"Volvi", "BWM", "Tayoto", "Mazdo"};
+      
+      for (int i = 0; i < cars.Length; i++)
+      {
+          Console.WriteLine(cars[i]);
+      }
+      
+    }
+  }
+}
